@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "start": "ts-node ./elementos-pares/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
     "vitest": "^0.13.0"
   }
 }
